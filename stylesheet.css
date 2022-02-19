@@ -61,12 +61,24 @@ a {
 }
 
 .btn-wrapper {
-  text-align: left;
   margin: 20px 0;
 }
 
 .btn-wrapper p {
   margin: 10px 0;
+}
+
+#btn-wrapper {
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+  from {
+    left: 300px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
 .signup {
